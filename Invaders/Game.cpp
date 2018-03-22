@@ -9,7 +9,7 @@ void Game::RunGame(sf::RenderWindow& window)
 {
 	Player* player = new Player(sf::Vector2f(50, 25), sf::Vector2f(window.getSize().x/2 -25, 560), sf::Color::Cyan);
 	Bullet* bullet = nullptr;
-	Bullet* enemyBullet = nullptr;
+	EnemyBullet* enemyBullet = nullptr;
 	int score = 0;
 	int deadEnemies = 0;
 
@@ -81,7 +81,7 @@ void Game::RunGame(sf::RenderWindow& window)
 			while (enemies[shootingOne] == nullptr) {
 				shootingOne = rand() % 55;
 			}
-			enemyBullet = new Bullet(sf::Vector2f(5.0f, 10.0f), enemies[shootingOne]->Position(), sf::Color::Magenta);
+			enemyBullet = new EnemyBullet(sf::Vector2f(5.0f, 10.0f), enemies[shootingOne]->Position(), sf::Color::Magenta);
 		}
 
 		if (enemyBullet != nullptr) {

@@ -1,10 +1,13 @@
-﻿  Player.cpp
-  Game.cpp
+﻿  Game.cpp
 d:\pk3\invaders\invaders\game.cpp(10): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
 d:\pk3\invaders\invaders\game.cpp(19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 d:\pk3\invaders\invaders\game.cpp(38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 d:\pk3\invaders\invaders\game.cpp(43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 d:\pk3\invaders\invaders\game.cpp(157): warning C4018: '<': signed/unsigned mismatch
+  EnemyBullet.cpp
   Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  Menu.cpp
   Invaders.vcxproj -> D:\pk3\Invaders\Debug\Invaders.exe
   Invaders.vcxproj -> D:\pk3\Invaders\Debug\Invaders.pdb (Full PDB)

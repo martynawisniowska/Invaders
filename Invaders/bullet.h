@@ -2,8 +2,6 @@
 #include "GraphicObject.h"
 #include <SFML\Graphics.hpp>
 
-extern bool enemyShoot;
-
 class Bullet : public GraphicObject
 {
 public:

@@ -12,8 +12,7 @@ Bullet::~Bullet()
 
 void Bullet::Move()
 {
-	if (enemyShoot) body.move(0, 5.0f);
-	else body.move(0, -7.0f);
+	body.move(0, -7.0f);
 }
 
 
