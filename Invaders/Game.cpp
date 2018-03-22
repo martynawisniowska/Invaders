@@ -2,7 +2,6 @@
 #include <iostream>
 
 bool moovingRight = true;
-bool enemyShoot = false;
 bool change = false;
 
 void Game::RunGame(sf::RenderWindow& window)
@@ -156,7 +155,6 @@ void Game::RunGame(sf::RenderWindow& window)
 
 		for (int i=0;i<objects.size();i++)
 		{
-			if (i == 1) enemyShoot = false; else enemyShoot = true;
 			if (objects[i] != nullptr) {
 				objects[i]->Move();
 				objects[i]->Draw(window);
